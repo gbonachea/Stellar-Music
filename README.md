@@ -2,7 +2,8 @@
 
 Revisión de **Hero Music Base** (C++17, Qt Widgets) para GNU/Linux. Conserva la lista independiente, el diálogo de configuración, los presets, el inicio automático y la bandeja. El nuevo frontal tiene controles vectoriales interactivos, no una captura del reproductor de referencia.
 
-![Frontal real durante la prueba con un tono de 1 kHz](docs/hero-classic-blue.png)
+<img width="620" height="285" alt="hero-classic-blue" src="https://github.com/user-attachments/assets/39281316-0360-45b6-8bc7-3d908a63a6eb" />
+
 
 ## Compilar y ejecutar
 
