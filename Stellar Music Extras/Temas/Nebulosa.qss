@@ -1,0 +1,14 @@
+/* Hero Music · Nebulosa. Cristal violeta y botones de metal lavanda. */
+QWidget#chassis {border:2px solid #322039;border-radius:10px;background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #ae9abe,stop:.04 #38254f,stop:.14 #322039,stop:.93 #38254f,stop:1 #ae9abe)}
+QFrame#alloy, PlaylistWindow, QDialog {border-color:#ae9abe;border-radius:10px;background:qlineargradient(x1:0,y1:0,x2:.15,y2:1,stop:0 #ebe1f3,stop:.5 #ae9abe,stop:.79 #ebe1f3,stop:1 #ae9abe)}
+QLabel#title {color:#f3d9ff} QFrame#rail {background:#ae9abe;border-color:#322039}
+QWidget#glass {qproperty-ink:#f3d9ff;qproperty-glass:#38254f;font-family:"DejaVu Sans Mono"}
+TransportButton {qproperty-metal:#ebe1f3;qproperty-accent:#8050a6}
+QMenuBar, QLabel, QCheckBox {color:#322039} QLabel#title {color:#f3d9ff}
+QMenu {color:#322039;background:#ebe1f3}
+QMenu::item:selected,QMenuBar::item:selected {background:#38254f;color:#f3d9ff}
+QPushButton:hover {border-color:#8050a6;color:#322039}
+QPushButton:checked,QPushButton:pressed {background:#38254f;color:#f3d9ff;border-color:#8050a6}
+QSlider::sub-page:horizontal {background:#8050a6} QSlider::groove:horizontal {border-color:#ae9abe}
+QListWidget,QTableView {background:#322039;color:#f3d9ff;selection-background-color:#38254f;selection-color:white;border-color:#ae9abe}
+QHeaderView::section {color:#322039;background:#ebe1f3;padding:3px;border:1px solid #ae9abe}

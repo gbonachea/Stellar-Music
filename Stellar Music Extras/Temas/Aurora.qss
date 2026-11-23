@@ -1,0 +1,14 @@
+/* Hero Music · Aurora. Cristal verde profundo y aluminio de tono menta. */
+QWidget#chassis {border:2px solid #193333;border-radius:13px;background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #88aba9,stop:.04 #103f40,stop:.14 #193333,stop:.93 #103f40,stop:1 #88aba9)}
+QFrame#alloy, PlaylistWindow, QDialog {border-color:#88aba9;border-radius:13px;background:qlineargradient(x1:0,y1:0,x2:.15,y2:1,stop:0 #d6eee4,stop:.5 #88aba9,stop:.79 #d6eee4,stop:1 #88aba9)}
+QLabel#title {color:#b4ffda} QFrame#rail {background:#88aba9;border-color:#193333}
+QWidget#glass {qproperty-ink:#b4ffda;qproperty-glass:#103f40;font-family:"DejaVu Sans Mono"}
+TransportButton {qproperty-metal:#d6eee4;qproperty-accent:#09756b}
+QMenuBar, QLabel, QCheckBox {color:#193333} QLabel#title {color:#b4ffda}
+QMenu {color:#193333;background:#d6eee4}
+QMenu::item:selected,QMenuBar::item:selected {background:#103f40;color:#b4ffda}
+QPushButton:hover {border-color:#09756b;color:#193333}
+QPushButton:checked,QPushButton:pressed {background:#103f40;color:#b4ffda;border-color:#09756b}
+QSlider::sub-page:horizontal {background:#09756b} QSlider::groove:horizontal {border-color:#88aba9}
+QListWidget,QTableView {background:#193333;color:#b4ffda;selection-background-color:#103f40;selection-color:white;border-color:#88aba9}
+QHeaderView::section {color:#193333;background:#d6eee4;padding:3px;border:1px solid #88aba9}

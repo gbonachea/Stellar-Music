@@ -1,0 +1,14 @@
+/* Hero Music · Polar. Pantalla de alto contraste y marco de acero claro. */
+QWidget#chassis {border:2px solid #141e29;border-radius:4px;background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #bacbd3,stop:.04 #132432,stop:.14 #141e29,stop:.93 #132432,stop:1 #bacbd3)}
+QFrame#alloy, PlaylistWindow, QDialog {border-color:#bacbd3;border-radius:4px;background:qlineargradient(x1:0,y1:0,x2:.15,y2:1,stop:0 #f7fafb,stop:.5 #bacbd3,stop:.79 #f7fafb,stop:1 #bacbd3)}
+QLabel#title {color:#ffffff} QFrame#rail {background:#bacbd3;border-color:#141e29}
+QWidget#glass {qproperty-ink:#ffffff;qproperty-glass:#132432;font-family:"DejaVu Sans Mono"}
+TransportButton {qproperty-metal:#f7fafb;qproperty-accent:#365e7a}
+QMenuBar, QLabel, QCheckBox {color:#141e29} QLabel#title {color:#ffffff}
+QMenu {color:#141e29;background:#f7fafb}
+QMenu::item:selected,QMenuBar::item:selected {background:#132432;color:#ffffff}
+QPushButton:hover {border-color:#365e7a;color:#141e29}
+QPushButton:checked,QPushButton:pressed {background:#132432;color:#ffffff;border-color:#365e7a}
+QSlider::sub-page:horizontal {background:#365e7a} QSlider::groove:horizontal {border-color:#bacbd3}
+QListWidget,QTableView {background:#141e29;color:#ffffff;selection-background-color:#132432;selection-color:white;border-color:#bacbd3}
+QHeaderView::section {color:#141e29;background:#f7fafb;padding:3px;border:1px solid #bacbd3}

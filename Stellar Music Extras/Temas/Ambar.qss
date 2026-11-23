@@ -1,0 +1,14 @@
+/* Hero Music · Ambar. Cristal ámbar y carcasa de bronce cepillado. */
+QWidget#chassis {border:2px solid #332012;border-radius:8px;background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #bc9973,stop:.04 #3d2415,stop:.14 #332012,stop:.93 #3d2415,stop:1 #bc9973)}
+QFrame#alloy, PlaylistWindow, QDialog {border-color:#bc9973;border-radius:8px;background:qlineargradient(x1:0,y1:0,x2:.15,y2:1,stop:0 #f4dfbd,stop:.5 #bc9973,stop:.79 #f4dfbd,stop:1 #bc9973)}
+QLabel#title {color:#fff2b0} QFrame#rail {background:#bc9973;border-color:#332012}
+QWidget#glass {qproperty-ink:#fff2b0;qproperty-glass:#3d2415;font-family:"DejaVu Sans Mono"}
+TransportButton {qproperty-metal:#f4dfbd;qproperty-accent:#a45c17}
+QMenuBar, QLabel, QCheckBox {color:#332012} QLabel#title {color:#fff2b0}
+QMenu {color:#332012;background:#f4dfbd}
+QMenu::item:selected,QMenuBar::item:selected {background:#3d2415;color:#fff2b0}
+QPushButton:hover {border-color:#a45c17;color:#332012}
+QPushButton:checked,QPushButton:pressed {background:#3d2415;color:#fff2b0;border-color:#a45c17}
+QSlider::sub-page:horizontal {background:#a45c17} QSlider::groove:horizontal {border-color:#bc9973}
+QListWidget,QTableView {background:#332012;color:#fff2b0;selection-background-color:#3d2415;selection-color:white;border-color:#bc9973}
+QHeaderView::section {color:#332012;background:#f4dfbd;padding:3px;border:1px solid #bc9973}
