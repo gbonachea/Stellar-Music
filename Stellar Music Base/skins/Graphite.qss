@@ -1,5 +1,0 @@
-/* Cargar desde Options > Cargar skin QSS. Sólo reemplaza los selectores indicados. */
-QWidget#glass { qproperty-ink:#e5f6d5; qproperty-glass:#324538; font-family:"DejaVu Sans Mono" }
-TransportButton { qproperty-metal:#c6d0c6; qproperty-accent:#56823e }
-QFrame#alloy,PlaylistWindow,QDialog {background:qlineargradient(x1:0,y1:0,x2:.2,y2:1,stop:0 #eeeedd,stop:.6 #879289,stop:1 #c9cfc5)}
-QListWidget,QTableView {background:#172e23;selection-background-color:#417050}
